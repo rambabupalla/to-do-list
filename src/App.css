@@ -1,0 +1,87 @@
+body{
+  background-color: black;
+}
+
+
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  color: white;
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgroud-color 0.5 ease;
+}
+.add{
+  background-color: hsl(120, 80%, 37%);
+}
+.add:hover{
+  background-color: hsl(120, 82%, 26%);
+}
+
+.del-btn{
+  background-color: hsl(14, 81%, 45%);
+}
+.del-btn:hover{
+  background-color: hsl(0, 81%, 45%);
+}
+
+.up-btn{
+  background-color: hsl(228, 78%, 27%);
+}
+.up-btn:hover{
+  background-color: hsl(232, 73%, 19%);
+}
+
+.down-btn{
+  background-color: hsl(228, 78%, 27%);
+}
+.down-btn:hover{
+  background-color: hsl(232, 73%, 19%);
+}
+
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(150, 148, 148);
+  border-radius: 5px;
+  color: black;
+}
+
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(190, 189, 189);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(211, 207, 207);
+}
+.text{
+  color: black;
+  flex: 1;
+}
+
+.del-btn, .down-btn, .up-btn{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
