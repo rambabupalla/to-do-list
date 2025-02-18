@@ -52,7 +52,4 @@ To set up the project locally:
 2. **Delete a task**: Click the "Delete" button next to the task to remove it.
 3. **Move a task**: Click the "Move Up" or "Move Down" buttons to reorder the tasks.
 
-## Example
-
-Here's what the app looks like:
 
